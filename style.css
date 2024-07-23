@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: none;
+
+body{
+    font-size: 18px;
+    line-height: 40.5px;
+    box-sizing: border-box;
+}
+}
+.container{
+    width: 960px;
+}
+header div h1{
+    color: #888;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: left;
+    position: relative;
+    left: 15px;
+    top: 13px;
+}
+header div input{
+    position: relative;
+    background-color: #f2f3;
+    color: #000;
+    float: right;
+    right: 20px;
+    top: 20px;
+    width: 130px;
+    padding: 6px;
+    cursor: pointer;
+}
+header div::after, #art2::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+header div input:hover{
+    border-radius: 10px;
+    background-color: #888;
+    color: #f0f8ff;
+    box-shadow: 15px 15px 15px 15px #f3f3;
+}
+header #hr{
+    position: relative;
+    top: 8px;
+}
+header #hr hr{
+    margin-top: 40px;
+    border: 1.4px solid #888;
+}
+
+header nav{
+    position: relative;
+    bottom: 33px;
+}
+header nav ul{
+    display: flex;
+    margin: 0 0 0 160px;
+}
+header nav ul li{
+    list-style: none;
+    margin-left: 70px;
+}
+header nav ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #888;
+    cursor: pointer;
+}
+.container main{
+    text-align: center;
+}
+.container main #sec1 #art1{
+    width: 420px;
+    background-color: #888;
+    margin-left: 280px;
+}
+.container main #sec1 article h1{
+    text-align: left;
+    margin-left: 10px;
+}
+.container main #sec1 #art2 small{
+    float: left;
+    position: relative;
+    left: 290px;
+}
+.container main #sec1 #art2 figure{
+    float: right;
+    display: flex;
+    position: relative;
+    right: 290px ;
+    margin-right: 3px;
+    top: 10px;
+}
+
+.container main #sec1 #art2 figure img{
+    width: 20px;
+    height: 15px; 
+}
+
+#sec2{
+    margin: 30px;
+}
+
+#sec2 figure{
+    width: 420px;
+    margin-left: 250px;
+}
+
+#sec2 figure img{
+  width: 420px;
+  height: 200px;   
+}
+main #sec3 #art3, #art4{
+    text-align: left;
+    margin-left: 280px;
+}
