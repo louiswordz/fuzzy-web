@@ -91,14 +91,15 @@ header nav ul li a{
     float: right;
     display: flex;
     position: relative;
-    right: 290px ;
-    margin-right: 3px;
-    top: 10px;
+    right: 260px ;   
+    top: 9px;
 }
 
-.container main #sec1 #art2 figure img{
+.container main #sec1 #art2 figure a{
     width: 20px;
     height: 15px; 
+    margin-left: 10px;
+
 }
 
 #sec2{
