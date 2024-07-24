@@ -118,3 +118,45 @@ main #sec3 #art3, #art4{
     text-align: left;
     margin-left: 280px;
 }
+footer{
+    position: relative;
+    top: 30vh;
+}
+footer .foot1{
+    float: left;
+    position: relative;
+    left: 300px;
+}
+footer .foot1 ul{
+    list-style: url(-) ;
+}
+.foot2{
+    float: right;
+    right: 150px;
+    position: relative;
+}
+footer::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+footer ul li{
+    font-size: 15px;
+    color: #00ff;
+
+}
+footer h2{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+footer h2 span {
+    display: block;
+}
+footer .foot-box{
+    width: 580px;
+    border: 1px solid black;
+    position: relative;
+    left: 250px;
+    height: 300px;
+}
